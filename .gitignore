@@ -1,0 +1,19 @@
+# apparat
+gitignore       # я закинул чертежи Омега устройства в само Омега устройство
+.cache
+.clangd
+.vscode
+makefile
+build
+
+# starts
+.DS_Store
+_out_puts
+app
+app.dSYM
+a.out
+a.out.dSYM
+
+# tests
+*.csv
+*.stl
