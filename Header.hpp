@@ -28,9 +28,10 @@
 
 //_____________________________________________OPTIMIZATIONS_______________________________________________________________________________//
 // Another optimizations //
+inline constexpr std::size_t GEOM_ALIGNMENT = 16;
 using precision_t = float;
 #define EPSILON_OF_ZERO 1e-4
-
+using Hash_t = float;
 //_________________________________________________________________________________________________________________________________________//
 
 
@@ -54,7 +55,7 @@ concept is_Decard_dim = requires(T a, T b)
     // cmake --build build
 //_______________________________
     // git add .
-    // git commit -m "see all variants (vrode) + some needed updates"
+    // git commit -m "some trash"
     // git push
 //_______________________________]
     // git pull
